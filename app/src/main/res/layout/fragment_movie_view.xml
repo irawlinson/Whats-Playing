@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:minWidth="@dimen/min_diag_frag_width"
+    tools:context="com.example.isaiahrawlinson.whatsplaying.MovieView">
+
+    <TextView
+        android:id="@+id/movie_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/st_header_title_font"
+        android:textColor="@color/stHeaderTitle"/>
+
+    <TextView
+        android:id="@+id/movie_view_genres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/st_header_desc_font"
+        android:textColor="@color/movieDescription"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dir_label"
+            android:textSize="@dimen/st_header_dir_label_font"
+            android:textStyle="bold"
+            android:textColor="@color/stHeaderDirs"/>
+
+        <TextView
+            android:id="@+id/movie_view_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/st_header_dirs_font"
+            android:textColor="@color/stHeaderDirs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/star_label"
+            android:textSize="@dimen/st_header_star_label_font"
+            android:textStyle="bold"
+            android:textColor="@color/stHeaderStars"/>
+
+        <TextView
+            android:id="@+id/movie_view_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/st_header_stars_font"
+            android:textColor="@color/stHeaderStars"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/movie_view_description"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/st_header_desc_font"
+        android:textColor="@color/stHeaderDesc"/>
+
+</LinearLayout>

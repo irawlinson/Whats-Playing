@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_favs_add_to_wl"
+        android:title="@string/menu_add_to_wl"/>
+    <item
+        android:id="@+id/menu_favs_delete"
+        android:title="@string/menu_remove_from_favs" />
+</menu>

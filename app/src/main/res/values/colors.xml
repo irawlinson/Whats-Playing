@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Movie List -->
+    <color name="movieTitle">#000000</color>
+    <color name="movieDescription">#222222</color>
+
+    <!-- Showtime List -->
+    <color name="showtimeTime">#000000</color>
+    <color name="showtimeTheatre">#222222</color>
+
+    <!-- Showtime Header -->
+    <color name="stHeaderTitle">#000000</color>
+    <color name="stHeaderDirs">#000000</color>
+    <color name="stHeaderStars">#000000</color>
+    <color name="stHeaderDesc">#000000</color>
+</resources>

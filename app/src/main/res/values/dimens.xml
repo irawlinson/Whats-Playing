@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="ttt_button_dimension">100dp</dimen>
+    <dimen name="ttt_button_font">50sp</dimen>
+
+    <dimen name="movie_listview_item_title_font">20sp</dimen>
+    <dimen name="movie_listview_item_description_font">15sp</dimen>
+
+    <dimen name="showtime_listview_item_time_font">20sp</dimen>
+    <dimen name="showtime_listview_item_theatre_font">18sp</dimen>
+
+    <dimen name="st_header_title_font">32sp</dimen>
+    <dimen name="st_header_dir_label_font">18sp</dimen>
+    <dimen name="st_header_dirs_font">15sp</dimen>
+    <dimen name="st_header_star_label_font">18sp</dimen>
+    <dimen name="st_header_stars_font">15sp</dimen>
+    <dimen name="st_header_desc_font">15sp</dimen>
+
+    <dimen name="min_diag_frag_width">400dp</dimen>
+</resources>

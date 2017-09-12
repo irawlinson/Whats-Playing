@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/st_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/st_header_title_font"
+        android:textColor="@color/stHeaderTitle"/>
+
+    <TextView
+        android:id="@+id/st_header_genres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/st_header_desc_font"
+        android:textColor="@color/movieDescription"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dir_label"
+            android:textSize="@dimen/st_header_dir_label_font"
+            android:textStyle="bold"
+            android:textColor="@color/stHeaderDirs"/>
+
+        <TextView
+            android:id="@+id/st_header_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/st_header_dirs_font"
+            android:textColor="@color/stHeaderDirs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/star_label"
+            android:textSize="@dimen/st_header_star_label_font"
+            android:textStyle="bold"
+            android:textColor="@color/stHeaderStars"/>
+
+        <TextView
+            android:id="@+id/st_header_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/st_header_stars_font"
+            android:textColor="@color/stHeaderStars"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/st_header_description"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/st_header_desc_font"
+        android:textColor="@color/stHeaderDesc"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/colorAccent"/>
+</LinearLayout>

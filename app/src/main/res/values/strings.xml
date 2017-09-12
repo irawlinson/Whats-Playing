@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">What\'s Playing?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hangman_win_message">You win!</string>
+    <string name="hangman_lose_message">You lose!</string>
+
+    <string name="ttt_start_message">Click a tile to start.</string>
+    <string name="ttt_win_message">Game over, you win!</string>
+    <string name="ttt_lose_message">Game over, you lose!</string>
+    <string name="ttt_tie_message">Cat\'s game!</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_local_movies">Playing Nearby</string>
+    <string name="nav_watchlist">My List</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_games">Stuck in line?</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Showtime Header -->
+    <string name="dir_label">Director:&#160;</string>
+    <string name="star_label">Stars:&#160;</string>
+
+    <!-- Popups -->
+    <string name="menu_add_to_favs">Add to favorites</string>
+    <string name="menu_add_to_wl">Add to my list</string>
+    <string name="menu_remove_from_favs">Remove from favorites</string>
+    <string name="menu_remove_from_wl">Remove from my list</string>
+</resources>
